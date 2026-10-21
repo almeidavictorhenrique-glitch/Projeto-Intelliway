@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Editores e sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dados locais e arquivos gerados
+data/raw/
+data/processed/
+*.log
